@@ -24,16 +24,21 @@ Implemented the following ideas to obtain relevant features from the dataset:
     - Adjective Count
     - Adverb Count
     - Pronoun Count
-- TF-IDF features as vectors
+- TF-IDF (n-gram level) features as vectors
 
 
 ## Date processing
-The following text 
+
+- Case conversion
+- Remove accented characters
+- Expand contractions
+- Remove special characters
+- Lemmatization
 
 ## Model used
-Initially decided to go with Logistic Regression, but the model did not perform well. Achieved better results with CatBoost Classifier implemented using PyCaret library.
+
+
 
 ## Result
-Accuracy is not a good performance measure due to the imbalanced nature of the data hence used AUC score. 
-Tuned CatBoost classifier achieved:
-### AUC: 0.724
+
+### **Extreme Gradient Boosting** classifier achieved **Accuracy** of **99.53%**  
