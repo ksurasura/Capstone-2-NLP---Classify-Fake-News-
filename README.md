@@ -1,7 +1,5 @@
 # Capstone 2: NLP - Classify Fake News
 
-### Determine if an article is fake news or not.
-
 ## Purpose
 The aim of this project was to identify whether a given news article is real news or fake news.
 
