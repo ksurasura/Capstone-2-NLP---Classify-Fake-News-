@@ -11,19 +11,20 @@ Data contains a total of 44898 news articles. Target classes as well balanced wi
 
 ## Feature Engineering
 Implemented the following ideas to obtain relevant features from the dataset:
--Text/NLP based features:
-  1. Count of words
-  1. Count of words starting with upper case 
-  1. Count of characters
-  1. Average length of the words
-  1. Punctuation count
-  1. Frequency distribution of Part of Speech Tags:
-    1. Noun Count
-    1. Verb Count
-    1. Adjective Count
-    1. Adverb Count
-    1. Pronoun Count
--TF-IDF features as vectors
+
+- Text/NLP based features:
+  - Count of words
+  - Count of words starting with upper case 
+  - Count of characters
+  - Average length of the words
+  - Punctuation count
+  - Frequency distribution of Part of Speech Tags:
+    - Noun Count
+    - Verb Count
+    - Adjective Count
+    - Adverb Count
+    - Pronoun Count
+- TF-IDF features as vectors
 
 
 ## Date processing
