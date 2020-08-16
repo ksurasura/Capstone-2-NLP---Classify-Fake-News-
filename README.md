@@ -35,10 +35,10 @@ Implemented the following ideas to obtain relevant features from the dataset:
 
 ## Model used
 
-Used low-code Python library, PyCaret to see the performances of different models and then tune the hyper-parameters and see the performance of the tuned models
+Used low-code Python library, PyCaret to see the performances of different models and then tune the hyper-parameters (if required) and see the performance of the tuned models
 
 ## Result
 
-Best performing model: **Extreme Gradient Boosting** 
-Achieved **Accuracy** of **99.53%**  
+Best performing model: **Ridge Classifier** 
+Achieved **Accuracy** of **97.72%**  
 
